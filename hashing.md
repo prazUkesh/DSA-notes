@@ -55,17 +55,19 @@ mid-value = 7
 ## collision resolution techniques
 - chaining (open hashing)
 - open addressing (closed chaining)
--   linear probing
--   quadratic probing
--   double hashing
+  -   linear probing
+  -   quadratic probing
+  -   double hashing
 
-  ```
+```
 keys: 41, 19, 10,12, 15
 
 k mod n
 n=5
 
 index starts from 0 and goes upto (n-1)
+
+
 
 ```
 
