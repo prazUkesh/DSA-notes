@@ -71,7 +71,12 @@ index starts from 0 and goes upto (n-1)
 
 ```
 
-
+### double hasing
+```
+h1(k) = k mod 11
+h1(k) = 8 - (k mod 8)
+h2(k)+ix(h2(k)) mod 11
+```
 
 
 
