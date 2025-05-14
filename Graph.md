@@ -12,4 +12,7 @@ G(V,E) is a collection of vertices and edges connecting vertices and edges conne
 - outdegree: outgoing edges
 
 ## Transitive closure of a graph
+![transitive closure of a graph](./transitive.jpg)
 
+
+## all path shortest path (Floyd Warshal Algorithm)
