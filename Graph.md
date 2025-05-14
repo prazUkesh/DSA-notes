@@ -5,9 +5,11 @@ G(V,E) is a collection of vertices and edges connecting vertices and edges conne
 - Directed Graph
 - undirected Graph
 
+[ALt text](/./graph.jpg)
+
 ## Indegree & Outdegree
-> indegree: incoming edges
-> outdegree: outgoing edges
+- indegree: incoming edges
+- outdegree: outgoing edges
 
 ## Transitive closure of a graph
 
