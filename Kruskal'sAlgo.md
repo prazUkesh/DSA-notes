@@ -1,5 +1,5 @@
 # Kruskal's ALgo (Minimun Cost Spanning Tree)
-![img](/./kruskal1.jpg)
+![image KruskalAlgo](/./kruskal1.jpg)
 ```
 no. of vertices = 7
 Spanning Tree Create: No. of edges(v-1)=6
@@ -44,7 +44,26 @@ Spanning Tree Create: No. of edges(v-1)=6
 ----
 
 ## Djikstra's Algorithm
-![djikstra's Algo](/./djikstra.jpg.jpg)
+![image DjikstraAlgo](/./djikstra.jpg)
 
+> visiting & exploring
 
+### pseudocode
+```
+for each vertex V:
+  dist[v] = infinity
+  prev[v] = none
+  dist[source] = 0
+
+set all values to unexplored
+while destination nit explored
+v =least-valued unexplored vertex
+set  to explored
+
+for each edge(v,w)
+  if dist[v] + len(v,w) < dist[w]
+    dist[w] = dist[v]+len(v,w)
+    prev[w] = v
+
+```
 
